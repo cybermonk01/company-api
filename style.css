@@ -278,3 +278,28 @@ ul {
 .footer-right {
   margin-right: 40px;
 }
+
+@media screen and (max-width: 950px) {
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .faq-image > img {
+    position: relative;
+    right: 240px;
+
+    margin-right: 440px;
+  }
+
+  .download-email {
+    margin-right: 140px;
+  }
+}
